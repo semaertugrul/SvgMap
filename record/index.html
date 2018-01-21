@@ -1,0 +1,265 @@
+<html ang="en">
+    <head>
+<!--////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+        <meta charset="utf-8">
+        <!--width : Ekranın % 100 ölçeğindeki CSS piksellerindeki genişliği,device-width: piksel olarak ayarlanmasi 
+            initial-scale : Sayfa ilk yüklendiğinde yakınlaştırma düzeyini kontrol eder. 
+            maximum-scale, minimum-scale ve user-scalable : özellikleri kullanıcıların 
+            veya uzaklaştırmak sayfasını yakınlaştırmak için izin kontrol edersiniz. -->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css"/>
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+    </head>
+    <!-- Back Ground Resmi Tüm Arka Planı Kaplasın Diye Body Tagide Atama Yapildi -->
+    <body background="img-2.jpg">
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- Bu kısım  bastaki navigation bar'i oluşturur ve sayfalara yönlendirme yapar. -->
+    <div class="container">
+        <nav>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <!--Ürün kayıt yeri-->
+                    <!--<a class="nav-link active" href="index.html">Record</a>-->
+                    <a class="nav-link active" href="index.html">Ürünler</a>
+                </li>
+                <li class="nav-item">
+                    <!--Kayıt Ekranındayken Haritaya Yönlendirme Kismi-->
+                    <!--<a class="nav-link" href="../index.html">Map</a>-->
+                    <a class="nav-link" href="../index.html">Harita</a>
+                </li>      
+            </ul> 
+        </nav>  
+    </div>
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <div id="d1" class="container">
+ 
+        <!--Product Register-->
+        <!--Product Register En Buyuk Punto İle Yazıldı.-->
+        <!--<h1>Product Register</h1>-->
+        <h1>Ürün Kaydı</h1>  
+        <!-- Scroll bar elemanlari ve duzenlenmesi -->
+        <div class="btn-group" id="btndiv">
+        <button type="button" class="btn btn-primary dropdown-toggle" id="Tr-button" data-toggle="dropdown" >
+        Şehirler <!--<span class="caret"></span> --> </button>
+                                 
+                <ul class="dropdown-menu" role="menu">
+                <!--Scrool Butonu Eklendi.-->
+                <div style="height:280px;width:200px;border:1px solid #aaa ;font:20px/26px Georgia, Garamond, Serif;overflow:auto;">
+                <!-- Her şehir için plakaları id olarak belirlendi -->
+                                <li><a  id="1">Adana</a></li>
+                                <li><a  id="2">Adıyaman</a></li>
+                                <li><a  id="3">Afyonkarahisar</a></li>
+                                <li><a  id="4">Ağrı</a></li>
+                                <li><a  id="5">Amasya</a></li>
+                                <li><a  id="6">Ankara</a></li>
+                                <li><a  id="7">Antalya</a></li>
+                                <li><a  id="8">Artvin</a></li>
+                                <li><a  id="9">Aydın</a></li>
+                                <li><a  id="10">Balıkesir</a></li>
+                                <li><a  id="11">Bilecik</a></li>
+                                <li><a  id="12">Bingöl</a></li>
+                                <li><a  id="13">Bitlis</a></li>
+                                <li><a  id="14">Bolu</a></li>
+                                <li><a  id="15">Burdur</a></li>
+                                <li><a  id="16">Bursa</a></li>
+                                <li><a  id="17">Çanakkale</a></li>
+                                <li><a  id="18">Çankırı</a></li>
+                                <li><a  id="19">Çorum</a></li>
+                                <li><a  id="20">Denizli</a></li>
+                                <li><a  id="21">Diyarbakır</a></li>
+                                <li><a  id="22">Edirne</a></li>
+                                <li><a  id="23">Elazığ</a></li>
+                                <li><a  id="24">Erzincan</a></li>
+                                <li><a  id="25">Erzurum</a></li>
+                                <li><a  id="26">Eskişehir</a></li>
+                                <li><a  id="27">Gaziantep</a></li>
+                                <li><a  id="28">Giresun</a></li>
+                                <li><a  id="29">Gümüşhane</a></li>
+                                <li><a  id="30">Hakkâri</a></li>
+                                <li><a  id="31">Hatay</a></li>
+                                <li><a  id="32">Isparta</a></li>
+                                <li><a  id="33">Mersin</a></li>
+                                <li><a  id="34">İstanbul</a></li>
+                                <li><a  id="35">İzmir</a></li>
+                                <li><a  id="36">Kars</a></li>
+                                <li><a  id="37">Kastamonu</a></li>
+                                <li><a  id="38">Kayseri</a></li>
+                                <li><a  id="39">Kırklareli</a></li>
+                                <li><a  id="40">Kırşehir</a></li>
+                                <li><a  id="41">Kocaeli</a></li>
+                                <li><a  id="42">Konya</a></li>
+                                <li><a  id="43">Kütahya</a></li>
+                                <li><a  id="44">Malatya</a></li>
+                                <li><a  id="45">Manisa</a></li>
+                                <li><a  id="46">Kahramanmaraş</a></li>
+                                <li><a  id="47">Mardin</a></li>
+                                <li><a  id="48">Muğla</a></li>
+                                <li><a  id="49">Muş</a></li>
+                                <li><a  id="50">Nevşehir</a></li>
+                                <li><a  id="51">Niğde</a></li>
+                                <li><a  id="52">Ordu</a></li>
+                                <li><a  id="53">Rize</a></li>
+                                <li><a  id="54">Sakarya</a></li>
+                                <li><a  id="55">Samsun</a></li>
+                                <li><a  id="56">Siirt</a></li>
+                                <li><a  id="57">Sinop</a></li>
+                                <li><a  id="58">Sivas</a></li>
+                                <li><a  id="59">Tekirdağ</a></li>
+                                <li><a  id="60">Tokat</a></li>
+                                <li><a  id="61">Trabzon</a></li>
+                                <li><a  id="62">Tunceli</a></li>
+                                <li><a  id="63">Şanlıurfa</a></li>
+                                <li><a  id="64">Uşak</a></li>
+                                <li><a  id="65">Van</a></li>
+                                <li><a  id="66">Yozgat</a></li>
+                                <li><a  id="67">Zonguldak</a></li>
+                                <li><a  id="68">Aksaray</a></li>
+                                <li><a  id="69">Bayburt</a></li>
+                                <li><a  id="70">Karaman</a></li>
+                                <li><a  id="71">Kırıkkale</a></li>
+                                <li><a  id="72">Batman</a></li>
+                                <li><a  id="73">Şırnak</a></li>
+                                <li><a  id="74">Bartın</a></li>
+                                <li><a  id="75">Ardahan</a></li>
+                                <li><a  id="76">Iğdır</a></li>
+                                <li><a  id="77">Yalova</a></li>
+                                <li><a  id="78">Karabük</a></li>
+                                <li><a  id="79">Kilis</a></li>
+                                <li><a  id="80">Osmaniye</a></li>
+                                <li><a  id="81">Düzce</a></li>
+                </div>
+                         
+                </ul>
+                
+        </div>
+<!--////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+                <!--product input -->
+                <!--Ürünün İsminin alındığı yer-->
+                     <div id="d3" class="container">
+                       <h2>Ürün</h2>
+                         <div id="d5" class="form-group">
+                            <input type="text" class="form-control" id="product" placeholder="product">
+                         </div>
+                    </div>    
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+                 <!--count input -->
+                 <!--Ürününden Kaç Adet Girileceği yer-->
+                     <div id="d4" class="container">
+                        <h2>Kaç Adet</h2>
+                           <div class="form-group">
+                             <input type="number" min = "0" class="form-control" id="count" placeholder="count">
+                           </div>
+                     </div>
+                   
+                
+                <div class="container" id="btn-click">
+                  <button class="btn" >Record</button>
+                </div>
+
+        </div> <!-- navigation bar dan sonra ki kisim -> genel div yapisi -->
+
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<div id="piechart"></div> <!-- pie chart -->
+        <script type="application/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="application/javascript" src="js/bootstrap.js"></script>
+
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> <!--Google Char için external bağlantı -->
+
+<script type="text/javascript">
+
+        //Belge "hazır" olana kadar bir sayfa güvenli bir şekilde bekler sayfayi manipüle etmez.
+        // jQuery, bu hazırlık durumunu sizin için tespit eder.   
+        $(document).ready(function(){ 
+        //Sayfayi yüklendiğinde document olarak tutulur ve bu dökümantasyonda Tr-Button'una onclick yapıldığında belirtilen fonksiyon çalışır.
+        document.getElementById("Tr-button").onclick=function(){
+        //id si btndiv olan div tagının içinde ki ul tagı onu takip eden li ve li nin içindeki a tagına erişip tüm a tag içeriklerini çeker.
+        //aynı şekilde bu tag elementlerinden herhangi birine tıklanılması durumunda ilgili fonkiyon çalışır.
+        $("#btndiv ul li a").click(function(){
+        //$(this).attr('id') ile tıklanılan a tag içeriğinin id değerini alıp i değişkeine atar
+        var i = $(this).attr('id');
+        //$(this).text() ile ilgili tag ın text olan içeriği name_ değişkenine atanır.
+        var name_ = $(this).text();
+        //alınan bu text değeri Tr-buttonun üzerindeki yazıyı şehirler den tıklanılan attribute değerine dönüştürür.
+        document.getElementById("Tr-button").innerHTML= name_;
+        console.log("i="+i); // Kişisel kontrol amaçlı.
+
+        var counter=0;
+        //firebase in parentı sehir olan database kısmı ile bağlantı sağlanır.
+        var ref1 = firebase.database().ref("sehir");
+        //i değeri tıknalına attributenin id siydi sehir DB de i değerinde child oluştururlur.
+        //i ile oluşturulmuş bir child önceden var sa tekrardan oluşturulmaz.
+        var ref = ref1.child(i);
+        //i childının altında oluşan toplam child sayısını döner  ve bunu counter'a atar. **
+        ref.orderByKey().endAt("pterodactyl").on("child_added", function(snapshot) {
+            counter ++;
+        console.log(snapshot.key);
+        console.log("counter son degeri :"+counter);
+        });
+   
+        // btn-click id li division içindeki button tagına tıklanıldığında ilgili fonksiyon çalışır.
+        $("#btn-click button").click(function(){
+        //product id li input tagının içine girilen değer val() fonksiyonu ile alınır.
+        var deger1=$("#product").val();
+        console.log("urun="+deger1);//Kişisel Kontrol amaçlı.
+        //count id li input tagının içine girilen değer val() fonksiyonu ile alınır.
+        var deger2=$("#count").val();
+        console.log("miktar"+deger2);//Kişisel kontrol amaçlı.
+        //product kısmı boş bırakılmış ise alert mesajı verir.
+            if(deger1==""){
+                window.alert("Product alanını boş bırakamazsın!");
+            }
+        
+        //product kısmı boş bırakılmış ise alert mesajı verir.
+            if(deger2==""){
+                window.alert("Count alanını boş bırakamazsın!");
+            }
+
+        // console.log("succes");
+        console.log("ikinci kez i="+i);//Kişisel kontrol amaçlı.
+        //var counter=0; olarak başlatıldı sonrasında (**) ile belirtilen kısımda son değeri bulundu
+        //burada belirtilen a sehirler parentının altındaki, sehir kodları ile belirtilen childların childlarıdır.
+        //herhangi bir sehir kodunun altındaki childin 0 ile başlaması tercih edilmes bu sebeple counter+1 ile 1 den başlatılır.
+        var a=counter+1;
+        //Gerekli DB bağlantısı.
+        var firebaseRef = firebase.database().ref();
+        //database in ilgili childina erişim ve o childin altında count ve name adında yeni bir child grubu oluşturulması
+        // ve gerekli değerlerin atanması.
+        firebaseRef.child("sehir").child(i).child(a).child("count").set(deger2);
+        firebaseRef.child("sehir").child(i).child(a).child("name").set(deger1);
+
+
+
+
+        })
+
+        })
+
+        }
+
+        })
+    </script>
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->   
+
+<!--Veritabanı ile ilişki kuruldu -->
+    <script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
+    <script>
+  // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyCeNIjWlUG3XjJKUsxEy_Re0m56G4kxBXA",
+        authDomain: "ilkproje-1e527.firebaseapp.com",
+        databaseURL: "https://ilkproje-1e527.firebaseio.com",
+        projectId: "ilkproje-1e527",
+        storageBucket: "ilkproje-1e527.appspot.com",
+        messagingSenderId: "547846229211"
+    };
+    firebase.initializeApp(config);
+    </script>
+
+    </body>
+</html>
